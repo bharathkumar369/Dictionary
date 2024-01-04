@@ -1,0 +1,18 @@
+.navbar--container{
+    width: 60%;
+    margin: 0 auto;
+}
+nav{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar--book{
+    height: 3rem;
+    width: 3rem;
+}
+.navbar--toggleOff,.navbar--moon,.navbar--toggleOn,.navbar--sun{
+    width: 2rem;
+}

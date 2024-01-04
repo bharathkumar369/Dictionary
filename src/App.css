@@ -1,0 +1,14 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.darkmode{
+  background-color: black;
+  color: white
+}
+.lightmode{
+  background-color: white;
+  color: black;
+}

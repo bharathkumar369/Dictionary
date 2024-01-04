@@ -1,0 +1,75 @@
+.main{
+    width: 60%;
+    margin: 0 auto;
+}
+.main--word{
+    font-size: 3rem;
+}
+.main--word h1{
+    margin-bottom: 0;
+}
+.main--phonetic p{
+    color: rgb(102, 7, 203);
+    font-size: 1.2rem;
+}
+.main--noun p,.main--verb h3{
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight:700;
+}
+.main--meaning h3,.main--verb h5,.main--synonym h3{
+    color: gray;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.main--dot{
+    height: 7px;
+    width: 7px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+.main--meaning p{
+    display: inline-block;
+}
+.main--synonym p{
+    color: rgb(102, 7, 203);
+}
+.main--dot{
+    height: 7px;
+    width: 7px;
+    background-color: rgb(118, 68, 172);
+    border-radius: 50%;
+    
+}
+.main--meaning__flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 2rem;
+}
+.main--synonym__flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main--verb__flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.main--verb__right{
+    margin-left: 4.5rem;
+    color: gray;
+    margin-bottom:2rem
+}
+
+@media(max-width:600px){
+    .main{
+        width: 90%;
+        
+    }
+}
