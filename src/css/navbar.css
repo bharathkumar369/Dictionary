@@ -16,3 +16,6 @@ nav{
 .navbar--toggleOff,.navbar--moon,.navbar--toggleOn,.navbar--sun{
     width: 2rem;
 }
+.navbar--book__toggle{
+    cursor:pointer;
+}
