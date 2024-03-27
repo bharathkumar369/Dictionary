@@ -4,7 +4,7 @@ import search from '../images/search.svg'
 
 const Input = (props) => {
 
-    const[searchInput,setSearchInput] = useState('');
+    const[searchInput,setSearchInput] = useState('keyboard');
 
     const handleSubmit = (e) => {
         e.preventDefault();
