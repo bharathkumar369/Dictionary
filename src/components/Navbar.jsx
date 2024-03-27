@@ -15,12 +15,16 @@ const Navbar = ({change, toggleMode}) => {
                     {change ? (<img src={bookWhite} alt="book" className="navbar--book"/> ): (<img src={book} alt="bookwhite" className="navbar--book"/> ) }
                 </div>
                 <div className="navbar--book__toggle" onClick={toggleMode}>
-                    {change ? (<img src={off} alt="toggleOff" className="navbar--toggleOff" />) : (
-                        <img src={on} alt="toggleOn" className="navbar--toggleOn" />
-                    )}
-                    {change ? (<img src={sun} alt="moon" className="navbar--moon"/>) : (
-                        <img src={moon} alt="sun" className="navbar--sun"/>
-                    )}
+                    <div>
+                        {change ? (<img src={off} alt="toggleOff" className="navbar--toggleOff" />) : (
+                            <img src={on} alt="toggleOn" className="navbar--toggleOn" />
+                        )}
+                    </div>
+                    <div>
+                        {change ? (<img src={sun} alt="moon" className="navbar--moon"/>) : (
+                            <img src={moon} alt="sun" className="navbar--sun"/>
+                        )}
+                    </div>
                 </div>
             </nav>
         </div>

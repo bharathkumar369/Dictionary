@@ -1,10 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import '../css/input.css'
 import search from '../images/search.svg'
 
 const Input = (props) => {
 
-    const[searchInput,setSearchInput] = useState('keyboard');
+    const[searchInput,setSearchInput] = useState('piano');
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -15,6 +15,9 @@ const Input = (props) => {
         setSearchInput(e.target.value)
     }
 
+    useEffect(()=>{
+        handleSubmit({preventDefault:()=>{}});
+    },[])
     return(
         <div className="input">
             <form className="input--form" onSubmit={handleSubmit}>
